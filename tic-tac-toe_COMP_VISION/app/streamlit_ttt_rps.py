@@ -13,7 +13,7 @@ import os
 BOARD_SIZE = 3
 CLASS_NAMES = ['paper', 'rock', 'scissors']
 MODEL_PATH = 'models/rps_model.pth'
-# Custom image paths (place your images in the same directory or update the paths)
+# Custom image paths (make sure to place your images in the same directory or update the paths)
 X_IMG_PATH = 'app/assets/x.png'
 O_IMG_PATH = 'app/assets/o.png'
 EMPTY_IMG_PATH = 'app/assets/empty.png'

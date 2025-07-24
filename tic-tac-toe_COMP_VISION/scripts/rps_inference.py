@@ -10,7 +10,7 @@ import numpy as np
 from torchvision import transforms
 from rps_model import get_rps_model
 
-# Update this path after downloading the model from Kaggle
+# Update this path if downloading the model from external source like Kaggle or google colab
 MODEL_PATH = 'rps_model.pth'
 CLASS_NAMES = ['paper', 'rock', 'scissors']
 

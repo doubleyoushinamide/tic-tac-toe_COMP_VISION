@@ -15,8 +15,8 @@ from torchvision import datasets, transforms, models
 from torch.utils.data import DataLoader, random_split
 import numpy as np
 
-# 1. Data Loading and Preprocessing
-TRAIN_DIR = '/kaggle/working/rock-paper-scissors-dataset/train'
+# 1. Data Loading and Preprocessing: Check if the dataset is in the correct directory
+TRAIN_DIR = '/kaggle/input/rock-paper-scissors-dataset/train'
 VAL_DIR = '/kaggle/input/d/glushko/rock-paper-scissors-dataset/val'
 TEST_DIR = '/kaggle/input/d/glushko/rock-paper-scissors-dataset/test'
 BATCH_SIZE = 16
