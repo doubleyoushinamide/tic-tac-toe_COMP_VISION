@@ -1,0 +1,14 @@
+torch 
+torchvision 
+opencv-python 
+numpy 
+matplotlib 
+pandas 
+scikit-learn 
+scipy 
+seaborn 
+tqdm 
+tqdm-notebook 
+tqdm-notebook-ipywidgets
+pillow
+streamlit
